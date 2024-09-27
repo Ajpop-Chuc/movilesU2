@@ -1,5 +1,6 @@
 package com.example.androidu2
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -64,7 +65,9 @@ class MainActivity : AppCompatActivity() {
                         if (usuario.contrasena == password) {
                             Toast.makeText(this@MainActivity, "Login exitoso", Toast.LENGTH_SHORT)
                                 .show()
-                            // Aquí puedes continuar con la siguiente actividad o acción
+
+                            val intent = Intent(this@MainActivity, activity_menu::class.java)
+                            startActivity(intent)
                         } else {
                             Toast.makeText(
                                 this@MainActivity,

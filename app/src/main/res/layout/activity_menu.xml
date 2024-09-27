@@ -26,11 +26,12 @@
     <!-- Botón 3: Enviar Información -->
 
     <!-- Botón Logout -->
+
     <LinearLayout
         android:id="@+id/maintenanceButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="70dp"
         android:background="@drawable/button_background"
         android:orientation="horizontal"
@@ -112,8 +113,8 @@
 
     <Button
         android:id="@+id/logoutButton"
-        android:layout_width="319dp"
-        android:layout_height="75dp"
+        android:layout_width="266dp"
+        android:layout_height="65dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="60dp"
         android:backgroundTint="#FFFFFF"
