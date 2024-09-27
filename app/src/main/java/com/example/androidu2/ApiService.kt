@@ -8,4 +8,10 @@ interface ApiService {
 
     @GET("mantenimientos_predefinidos/")
     fun obtenerMantenimientos(): Call<List<MantenimientoPredefinido>>
+
+    @GET("campus/")
+    fun obtenerCampus(): Call<List<Campus>>
+
+    @GET("edificios/")
+    fun obtenerEdificios(): Call<List<Edificio>>
 }

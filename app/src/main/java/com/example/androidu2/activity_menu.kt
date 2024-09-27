@@ -28,19 +28,19 @@ class activity_menu : AppCompatActivity() {
 
         // Redireccionar al hacer clic en Ingresar Mantenimiento
         maintenanceButton.setOnClickListener {
-            val intent = Intent(this@activity_menu, activity_mantenimiento::class.java)
+            val intent = Intent(this@activity_menu, activity_areatrabajo::class.java)
             startActivity(intent)
         }
 
         // Redireccionar al hacer clic en Ingresar Incidente
         incidentButton.setOnClickListener {
-            val intent = Intent(this@activity_menu, activity_mantenimiento::class.java)
+            val intent = Intent(this@activity_menu, activity_areatrabajo::class.java)
             startActivity(intent)
         }
 
         // Redireccionar al hacer clic en Enviar Información
         sendInfoButton.setOnClickListener {
-            val intent = Intent(this@activity_menu, activity_mantenimiento::class.java)
+            val intent = Intent(this@activity_menu, activity_areatrabajo::class.java)
             startActivity(intent)
         }
 
